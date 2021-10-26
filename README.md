@@ -14,6 +14,7 @@ A simple monorepo using yarn workspaces.
 - 'main' package has one dependency: 'shared'
 - Jest is installed as dev dependency into 'shared' package
 
+```
 ├── workspace-root
 |   ├── node_modules
 |   ├── package.json
@@ -24,6 +25,7 @@ A simple monorepo using yarn workspaces.
 |   ├── workspace-b (shared)
 |   |   ├── package.json
 |   |   ├── node_modules
+```
 
 ## from scratch
 
